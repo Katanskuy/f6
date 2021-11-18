@@ -1,0 +1,66 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.col-lg-2{
+    border: 1px solid black;
+    font-family: "Brush Script MT", cursive;
+}
+.card__asus{
+    border: 1px solid purple;
+    background: purple;
+    border-radius: 7px;
+    width: 60px;
+    padding: 1px 1px 0px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.card__asus:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+.card__price{
+    background: rgb(255, 230, 0);
+    border-radius: 6px;
+    transition: 0.8s;
+    color: black;
+    text-decoration: none;
+}
+.card__price:hover{
+    background: white;
+    color: black;
+}
+.card__link{
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+.card__link:hover{
+    color: blue;
+}
+.card__btn{
+    background: rgb(255, 230, 0);
+    border-radius: 7px;
+    color: black;
+    padding: 3px 30% 3px 30%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.8s;
+    width: 150px;
+}
+.fa-question-circle{
+    color: gray;
+    transition: 0.8s;
+}
+.fa-question-circle:hover{
+    color: white;
+}
+.fa-heart{
+    color: red;
+}
+.fa-heart:visited{
+    background: red;
+}
